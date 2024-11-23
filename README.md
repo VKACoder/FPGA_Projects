@@ -1,2 +1,2 @@
 This repo contains design files for the projects I’ve worked on using the Basys 3 FPGA board.
-Each directory contain the verilog and constraint files and a separate README file describing the project.
+Each directory contains the verilog and constraint files.
