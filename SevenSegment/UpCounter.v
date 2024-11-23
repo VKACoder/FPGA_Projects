@@ -9,7 +9,7 @@ module SevenSegment(
     wire clkout1, clkout2;
     
     ClkDiv clock1(clkin, 31'd 199999, clkout1); //Clock with period 4ms to change SegmentSelect reg.
-    CLkDiv clock2(clkin, 31'd 799999, clkout2); //Clock with time period 16ms to up count
+    ClkDiv clock2(clkin, 31'd 799999, clkout2); //Clock with time period 16ms to up count
     
     always @ (posedge clkout1, negedge reset)
     begin
